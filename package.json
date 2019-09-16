@@ -1,0 +1,29 @@
+{
+  "name": "lodown-corcalla7",
+  "version": "1.0.0",
+  "description": "my first npm library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corcalla7/lodown.git"
+  },
+  "author": "Corbin Callais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corcalla7/lodown/issues"
+  },
+  "homepage": "https://github.com/corcalla7/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.2"
+  }
+}
