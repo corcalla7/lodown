@@ -61,7 +61,7 @@ module.exports.typeOf = typeOf;
  * 
  * @param {Array} array: the array of values to be searched through
  * @param {Number} number: the amount of the array's values, as a number, to search through
- * @return {Any Data type} value: Returns the singlular, or array of, datatype(s) from the function's arguments.
+ * @return {Array} array: return the <number> of values from base array
  */
 
 function first(array, number) {
